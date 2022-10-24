@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.brand img{
+    height: 44px;
+    width: 54px;
+    border-radius: 100px;
+    padding: 12px 18px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(100, 98, 98);
+    color: white;
+    font-size: 40px;
+}
+
+nav ul li{
+    padding: 0 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.brand img{
+    width: 100px;
+    padding: 0px -12px;
+}
+
+.containers{
+    display: flex;
+    height: 600px;
+}
+
+.contents{
+    width: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contents h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.vedio-player{
+    background-color: rgba(17, 16, 16, 0.952);
+    width: 60%;
+    height: 100%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Vedios{
+    display: flex;
+    padding-top: 20px;
+    margin: 23px;
+}
+
+.Vedios:hover{
+    background: rgba(238, 234, 234, 0.541);
+    border-radius: 30px;
+    padding-left: 29px;
+}
+
+.Vedios p{
+    padding-left: 20px;
+    padding-top: 53px;
+}
+.Vedios img{
+    height: 150px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.vedio-player{
+    align-self:center;
+}
+.vedios{
+    padding-left: 60px;
+    border-radius: 50px;
+}
+.vedio-player h1{
+    text-align: center;
+    padding-bottom: 25px;
+    text-decoration: underline;
+    padding-top: 35px;
+}
+
+#video_window{
+    border-radius: 38px;
+}
+
+.play_vedio{
+    margin-left: 15%;
+    padding-bottom: 50px;
+}
+
+#video_source{
+    width: 600px;
+}
+.buttons i{
+    color: rgba(0, 0, 0, 0.027) ;
+    width: 30px;
+}
+
+#myProgressBar{
+    width: 70%;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.buttons {
+    padding-top: 10px;
+    color: rgb(19, 18, 18);
+    display: flex;
+    width: 66px;
+    cursor: pointer;
+    padding-left: 243px;
+}
+
+.icons{
+    padding-left: 240px;
+}
+
+.icons i{
+    cursor: pointer;
+    padding-left: 10px ;
+}
+
+#max{
+    padding-left: 150px;
+    height: 10px;
+}
